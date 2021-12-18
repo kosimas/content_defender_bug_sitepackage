@@ -1,0 +1,29 @@
+mod.web_layout.BackendLayouts {
+  2Columns {
+    title = 2Columns
+    icon = EXT:content_defender_bug_sitepackage/Resources/Public/Images/BackendLayouts/default.png
+    config {
+      backend_layout {
+        colCount = 2
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Left Content
+                colPos = 0
+                disallowed {
+                    CType = text
+                }
+              }
+              2 {
+                name = Right Content
+                colPos = 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

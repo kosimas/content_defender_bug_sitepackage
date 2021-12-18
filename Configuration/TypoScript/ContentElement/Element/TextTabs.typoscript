@@ -1,0 +1,17 @@
+tt_content.text_tabs =< lib.contentElement
+tt_content.text_tabs {
+    templateName = TextTabs
+
+    dataProcessing.10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+    dataProcessing.10 {
+        if.isTrue.field = text_tab_text_elements
+        table = tt_content
+        pidInList.field = pid
+        where = text_tab_text_elements_parent=###uid### AND deleted=0 AND hidden=0 AND colPos=###colPos### AND CType IN (###CType1###)
+        orderBy = sorting
+        markers.colPos.value = 999
+        markers.CType1.value = text
+        markers.uid.field = uid
+        as = text_tab_text_elements
+    }
+}

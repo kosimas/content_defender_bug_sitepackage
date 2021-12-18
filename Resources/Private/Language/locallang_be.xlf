@@ -12,6 +12,12 @@
             <trans-unit id="backend_layout.column.normal">
                 <source>Normal</source>
             </trans-unit>
+            <trans-unit id="text_tabs.label">
+                <source>Text Tabs</source>
+            </trans-unit>
+            <trans-unit id="text_tabs.description">
+                <source>Element with multiple text elements.</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

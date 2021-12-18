@@ -1,0 +1,16 @@
+####################################
+#### NEW CONTENT ELEMENT WIZARD ####
+####################################
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        text_tabs {
+            iconIdentifier = content-text
+            title = LLL:EXT:content_defender_bug_sitepackage/Resources/Private/Language/locallang_be.xlf:text_tabs.label
+            description = LLL:EXT:content_defender_bug_sitepackage/Resources/Private/Language/locallang_be.xlf:text_tabs.description
+            tt_content_defValues {
+                CType = text_tabs
+            }
+        }
+    }
+    show := addToList(text_tabs)
+}

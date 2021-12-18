@@ -2,6 +2,7 @@
 #### DEPENDENCIES ####
 ######################
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:content_defender_bug_sitepackage/Configuration/TypoScript/ContentElement/setup.typoscript">
 
 
 ################
@@ -169,6 +170,7 @@ page {
 #### CONFIG ####
 ################
 config {
+    contentObjectExceptionHandler = 0
     absRefPrefix = auto
     no_cache = {$config.no_cache}
     uniqueLinkVars = 1
