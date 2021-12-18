@@ -9,7 +9,8 @@
     "require": {
         "typo3/cms-core": "^11.5",
         "typo3/cms-rte-ckeditor": "^11.5",
-        "typo3/cms-fluid-styled-content": "^11.5"
+        "typo3/cms-fluid-styled-content": "^11.5",
+        "ichhabrecht/content-defender": "^3.2.1"
     },
     "autoload": {
         "psr-4": {
