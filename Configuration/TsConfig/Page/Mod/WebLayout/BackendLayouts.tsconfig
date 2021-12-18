@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:content_defender_bug_sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
